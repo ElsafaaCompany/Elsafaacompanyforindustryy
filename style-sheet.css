@@ -1,0 +1,418 @@
+body {
+  color: black;
+  font-family: "Cairo", sans-serif;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  font-weight: 100;
+}
+
+.box-1 {
+  background-color: #404040;
+}
+.box-1 > img {
+  width: 300px;
+}
+.logo {
+  width: 100%;
+  text-align: center;
+}
+.logo > img {
+  width: 300px;
+}
+.box-2 {
+  background-color: #6f6f6f;
+  margin: 0;
+  padding: 3px;
+}
+.box-2 > .icons > ul {
+  margin: 0;
+  padding: 5px;
+  height: 24px;
+}
+.box-2 > .icons > ul > li {
+  display: inline-block;
+}
+
+.left-list {
+  float: right;
+  z-index: 5;
+}
+.left-list > img {
+  width: 18px;
+  color: aliceblue;
+  padding-left: 1em;
+  margin-right: 1em;
+}
+
+.box-3 {
+  color: white;
+}
+.box-3 > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.box-3 > ul > a > li {
+  padding: 10px;
+  border-top: white solid 1px;
+  background-color: #898989;
+}
+.box-3 > ul > a {
+  color: white;
+  text-decoration: none;
+}
+
+.box-3 > ul > li:hover {
+  background-color: #404040;
+}
+
+.container-main {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+  border-bottom: #b1b0ae solid 1px;
+  margin-bottom: 2em;
+}
+
+.main-box01 {
+  width: 100%;
+  height: 350px;
+  margin: auto;
+}
+
+.main-box02 > h2 {
+  color: rgba(0, 0, 0);
+  text-align: right;
+}
+.main-box02 > p {
+  color: #db9600;
+  text-align: right;
+  justify-content: center;
+}
+
+main {
+  border-top: #956f20 solid px;
+  margin: 1em 16px;
+}
+main > h1 {
+  color: #956f20;
+}
+.box000 {
+  background: url(logo.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.box001 {
+  background: url(images/IMG-20200816-WA0009.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.box002 {
+  background: url(images/trus/IMG-20200816-WA0007.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.box003 {
+  background: url(images/trus/IMG-20200816-WA0010.jpg);
+  background-size: cover;
+  background-position: center center;
+
+  background-repeat: no-repeat;
+}
+.box004 {
+  background: url(images/trus/new_3.jpeg);
+  background-size: cover;
+  background-position: center center;
+
+  background-repeat: no-repeat;
+}
+.box005 {
+  background: url(images-windows/Machine/mac3.jpeg);
+  background-size: cover;
+  background-position: center center;
+
+  background-repeat: no-repeat;
+}
+.box006 {
+  background: url(images-windows/Machine/mac2.jpeg);
+  background-size: cover;
+  background-position: center center;
+
+  background-repeat: no-repeat;
+}
+.box007 {
+  background: url(images-windows/Machine/mac1.jpeg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.box008 {
+  background: url(images/trus/new_1.jpeg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.box009 {
+  background: url(images/trus/new_2.jpeg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+footer {
+  background: #404040;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+.social-media {
+  width: 100%;
+  text-align: center;
+}
+.social-media > ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.social-media > h1 {
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+.social-media > ul > li {
+  display: inline-block;
+}
+.footer-container > .logo {
+}
+footer > h3 {
+  margin: 0;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.menu-footer {
+  text-align: center;
+  width: 100%;
+}
+.menu-footer > button {
+  width: calc(100% - 2.5rem);
+  display: block;
+  background-color: #55595c;
+  border: none;
+  border-radius: 0.25rem;
+  color: #fff;
+  padding: 0.5rem;
+  margin: 2em 1.25rem 1rem;
+}
+
+.menu-footer > ul {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.menu-footer > ul > li > a {
+  color: aquamarine;
+  text-decoration: none;
+  font-size: x-large;
+}
+
+.menu-footer > ul > li > a:hover {
+  text-decoration: underline;
+}
+.menu-footer > ul li {
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+}
+
+.social-media-nav {
+  display: none;
+}
+@media only screen and (min-width: 768px) {
+  .box001 {
+    width: 100%;
+    height: 300px;
+
+    margin: auto;
+    background: url(images/IMG-20200816-WA0009.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+  .box002 {
+    background: url(images/trus/IMG-20200816-WA0007.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+  .box003 {
+    background: url(images/trus/new_3.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+  .box004 {
+    background: url(images/trus/new_3.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  main {
+    width: 70%;
+    padding: 0 3em;
+  }
+  .menu-footer {
+    flex: 0;
+  }
+  .main-box02 > h2,
+  p {
+    text-align: center;
+  }
+  .flexinline {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  .social-media-nav {
+    display: block;
+    width: 15%;
+    position: absolute;
+    padding: 1em;
+    top: 14.2em;
+    right: 2em;
+    text-align: left;
+    border: 1px solid black;
+  }
+  .social-media-nav > div > ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .social-media-nav > div > ul > li {
+    padding: 5px;
+  }
+  .social-media-nav > div > ul > li > a > img {
+    vertical-align: middle;
+  }
+  .nav-h1 {
+    color: #956f20;
+    margin-top: 0;
+  }
+  .box000 {
+    background-size: 95%;
+    background-position-x: center top;
+  }
+
+  .box001 {
+    width: 100%;
+    height: 300px;
+    margin: auto;
+    background: url(images-windows/trus/IMG-20200816-WA0009.jpg);
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: cover;
+  }
+  .box002 {
+    background: url(images-windows/trus/IMG-20200816-WA0007.jpg);
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: cover;
+  }
+  .box003 {
+    background: url(images-windows/trus/IMG-20200816-WA0010.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .box004 {
+    background: url(images/trus/new_3.jpeg);
+    background-size: cover;
+    background-position: center left;
+    background-size: 50%;
+  }
+  .main-box02 {
+    width: 100%;
+  }
+  .main-box02 > h2,
+  p {
+    text-align: right;
+  }
+  .menu-footer > button {
+    display: none;
+  }
+  .menu-footer > button ~ ul {
+    display: none;
+    float: right;
+    padding: 0 2em;
+    flex: 0;
+  }
+}
+
+.whatup {
+  position: fixed;
+  bottom: 0;
+  transition: all 0.3s;
+}
+.whatup:hover {
+  opacity: 0.6;
+}
+
+#whatscard {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 3;
+  padding: 0;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  opacity: 0.9;
+  background-color: black;
+  transform: translate(-50%, -50%);
+}
+
+#whatscard > img {
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.nav-media-social {
+  display: block;
+  width: 15%;
+  position: absolute;
+  padding: 1em;
+  top: 30.2em;
+  right: 2em;
+  text-align: left;
+  border: 1px solid black;
+}
+
+.social-media-nav-2 {
+  display: block;
+  width: 15%;
+  position: absolute;
+  padding: 1em;
+  top: 14.2em;
+  right: 2em;
+  text-align: left;
+  border: 1px solid black;
+}
+
+.about-list > li {
+  float: right;
+  text-align: right;
+}
