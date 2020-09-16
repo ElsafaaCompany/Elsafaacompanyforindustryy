@@ -77,6 +77,13 @@ body {
   border-bottom: #b1b0ae solid 1px;
   margin-bottom: 2em;
 }
+#about-list > img {
+  display: none;
+}
+#about-list {
+  margin: 0;
+  padding: 0;
+}
 
 .main-box01 {
   width: 100%;
